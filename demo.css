@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+#navul{
+    list-style-type: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    padding-left: 0;
+    margin: 0;
+    padding:0;
+    overflow:hidden;
+    z-index: 1;
+}
+#navul li{
+    
+    float: left;
+    
+}
+#navul li a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding:14px 16px;
+}
+#home{
+    background-color: #009688;
+}
+#navul li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+#imagediv #buttoncss :hover{
+    background-color: #009688;
+}
+#imagediv{
+    margin-top: 30px;
+    padding-top:11px;
+    position: relative;
+}
+#image{
+    width: 100%;
+    min-height:350px;
+    max-height:600px;
+    position: relative;
+}
+#buttoncss{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    padding:17px;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    vertical-align:middle;
+}
+#imagediv #buttoncss:hover{
+    background-color: #009688;
+}
+
+#imageset{
+    margin-left: 1%;    
+}
+#gallerydesc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    margin: 10px 0 10px;
+}
+#imghover:hover{
+    opacity: 0.5;
+}
+.divclass{
+    float: left;
+}
+#work{
+    width:100%;
+    background-color: gray;
+}
+#work #workdet{
+    width: 24%;
+}
+#test{
+    width: 98%;
+    background-color:#333333;
+    margin-top: 22%;
+    display: flex;
+    padding:3% 1% 5% 1%;
+    
+}
+#test #texttest{
+ width: 23%;
+ padding:2% 1% 2% 1%;
+ line-height: 155%;   
+ text-align: justify;
+ color: honeydew;
+ font-weight: 100;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+#test #testimg{
+    width: 23%;
+    float: left;
+    background-color: honeydew;
+    margin-left: 1%;
+}
+#tablediv #table{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    margin-right: 4%;
+}
+#tablediv{
+    width: 100%;
+    display: flex;
+}
+#tablediv #table .signup:hover{
+    background-color: darkgrey;
+}
